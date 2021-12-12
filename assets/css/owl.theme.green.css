@@ -1,0 +1,90 @@
+/**
+ * Owl Carousel v2.3.4
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+/*
+ * 	Green theme - Owl Carousel CSS File
+ */
+.owl-owl-theme .owl-nav {
+  margin-top: 10px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+   }
+  .owl-owl-theme .owl-nav [class*='owl-'] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #D6D6D6;
+    display: inline-block;
+    cursor: pointer;
+    }
+   .owl-owl-theme .owl-nav [class*='owl-']{
+      background: #000;
+      color: #FFF;
+      text-decoration: none;
+      opacity: 1; 
+    }
+    
+  .owl-owl-theme .owl-nav .disabled {
+    opacity: 0.5;
+    cursor: default; }
+
+.owl-owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 10px; }
+
+.owl-owl-theme .owl-dots {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent; }
+  .owl-owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    *display: inline; }
+    .owl-owl-theme .owl-dots .owl-dot span {
+      width: 10px;
+      height: 10px;
+      margin: 5px 7px;
+      background: #D6D6D6;
+      box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity 200ms ease;
+      border-radius: 30px; }
+    .owl-owl-theme .owl-dots .owl-dot.active span, .owl-owl-theme .owl-dots .owl-dot:hover span {
+      background: #ebc651; }
+
+
+      .owl-dots{
+        position: absolute;
+        right: 30px;
+        bottom: 3%;
+    }
+    .owl-owl-theme .owl-nav{
+        margin-top: 0;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+    }
+    
+    .owl-owl-theme .owl-nav [class*="owl-"]{
+        margin: 0;
+        border-radius: 0px;
+    
+    }
+    .owl-owl-theme .owl-nav [class*="owl-"] span{
+        font-size: 60px;
+        position: absolute;
+        top: 32%;
+        line-height: 0px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 100;
+    }
